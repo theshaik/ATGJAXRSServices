@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/classes.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/ice.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/REST/base/lib/atg-rest-1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/hk2-api-2.4.0-b31.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/hk2-locator-2.4.0-b31.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/hk2-utils-2.4.0-b31.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/javax.inject-2.4.0-b31.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-client-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-common-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-container-servlet-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-container-servlet-core-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-guava-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-media-jaxb-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-media-multipart-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/jersey-server-2.21.1.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/ATG/ATG11.3/DAS/lib/jersey/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

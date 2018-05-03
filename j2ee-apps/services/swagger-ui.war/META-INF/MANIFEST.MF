@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+ATG-Module-Uri: swagger-ui.war
+ATG-Context-Root: /api/swagger
+ATG-Module-Version: swagger-ui.war

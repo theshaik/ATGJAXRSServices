@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ATGJAXRSServices" default="build" basedir=".">
+	<property environment="myenv" />
+	<property file="build.properties" />
+
+	<path id="build.classpath">
+		<fileset dir="${atg.basedir}/DAS/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${atg.basedir}/DCS/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${atg.basedir}/REST/base/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${basedir}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="build">
+		<delete dir="${atg.basedir}/${module.name}" />
+		<delete dir="bin" />
+		<mkdir dir="bin" />
+		<javac srcdir="src" destdir="bin" debug="true" deprecation="false" source="1.8" target="1.8" verbose="${javac.verbose.bool}">
+			<classpath refid="build.classpath" />
+			<include name="**/*.java" />
+		</javac>
+		<!-- Make a jar file with misc override classes. -->
+		<jar jarfile="lib/demo-jersey-classloader.jar" basedir="bin">
+		</jar>
+		<mkdir dir="${atg.basedir}/${module.name}" />
+		<copy todir="${atg.basedir}/${module.name}">
+			<fileset dir="." >
+				<exclude name="*.*"/>
+			</fileset>
+		</copy>
+	</target>
+</project>

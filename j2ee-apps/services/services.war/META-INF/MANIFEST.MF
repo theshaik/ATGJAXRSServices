@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+ATG-Module-Uri: services.war
+ATG-Context-Root: /api/v1
+ATG-Module-Version: services.war

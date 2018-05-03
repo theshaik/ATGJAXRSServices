@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+ATG-Config-Path: config
+ATG-Required: DafEar.Admin REST REST.JAXRSPublic
+ATG-Web-Module: j2ee-apps/services/services.war j2ee-apps/services/swagger-ui.war
+ATG-Class-Path: lib/ojdbc6-11.2.0.jar bin

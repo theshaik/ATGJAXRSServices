@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload-schemas xml-combine="append">
+	<schema id="demo.user-default">
+		<untyped-bean/>
+		<property name="id" />
+		<property name="name" />
+	</schema>
+</payload-schemas>
